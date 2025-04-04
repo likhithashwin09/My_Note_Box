@@ -1,0 +1,19 @@
+.Notes-Card{
+width:15rem ;
+border: 1px solid grey;
+} 
+
+.Notes-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.context-container{
+display: flex;
+flex-direction:column;
+}
+
+.cta-container{
+  margin-left: auto;  
+}

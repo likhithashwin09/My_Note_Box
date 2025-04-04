@@ -1,0 +1,19 @@
+
+
+.notes-main{
+    width: 100vw;
+    margin-top: 2rem;
+    display:flex;
+    justify-content: center;
+}
+.notes-input{
+    display: flex;
+    flex-direction: column;
+    width :25rem;
+}
+.notees{
+    height:8rem
+}
+.title1{
+    height: 3rem;
+}

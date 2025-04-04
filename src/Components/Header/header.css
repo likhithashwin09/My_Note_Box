@@ -1,0 +1,21 @@
+.header{
+    background-color: lightgray;
+    border-bottom: 1px solid grey;
+    display :flex;
+    align-items: center;
+    gap: 1rem;
+    padding:.5rem ;
+    width: 100vw;
+}
+
+.img-container{
+    height: 5rem;
+    width: 5rem;
+}
+
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
