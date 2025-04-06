@@ -18,7 +18,9 @@ export const NotesInput = (props) => {
     }
 
     function onClickAdd() {
-        props.setNotesArr([...props.notesArr, { id: uuid(), NoteTitle: title, notecontext: context }])
+        props.setNotesArr([...props.notesArr, { id:uuid(), NoteTitle:title, notecontext:context , isPinned:false}])
+        setTitle("") ;
+        setcontext("")
 
     }
 
